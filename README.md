@@ -47,6 +47,7 @@ After you're finished please remove all the comments and instructions!
     - [Setup](#setup)
     - [Install](#install)
   - [👥 Authors ](#-authors-)
+  - [🔭 Future Features](#-future-features)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
@@ -56,7 +57,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Portfolio-mobile-version <a name="about-project"></a>
 
-**portfolio-mibile** is my first microverse project which allows me to deepen my skills in my learning of web development
+**portfolio-mibile** is my first microverse project which allows me to deepen my skills in my learning of web development.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -112,6 +113,11 @@ Install this project with:
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
+
+## 🔭 Future Features
+
+- Add contact section.
+- Add skill section.
 
 👤 **Noel Nomgne Foka**
 
