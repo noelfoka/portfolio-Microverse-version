@@ -50,14 +50,13 @@ After you're finished please remove all the comments and instructions!
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [❓ FAQ (OPTIONAL) ](#-faq-optional-)
   - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 Portfolio-mobile-version <a name="about-project"></a>
 
-**portfolio-mibile** is my first project at microverse
+**portfolio-mibile** is my first microverse project which allows me to deepen my skills in my learning of web development
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -68,7 +67,6 @@ After you're finished please remove all the comments and instructions!
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Client</summary>
   <ul>
     <li>index.html</li>
     <li>style.css</li>
@@ -107,7 +105,6 @@ Install this project with:
 
 ```sh
   cd portfolio-version
-  gem install
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -124,7 +121,6 @@ Install this project with:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
-
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
@@ -150,8 +146,6 @@ I would like to thank microverse
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
 <!-- LICENSE -->
 
