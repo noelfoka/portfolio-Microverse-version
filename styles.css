@@ -1,3 +1,262 @@
-.h2 {
-  color: aqua;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap");
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.bg-white {
+  background: #fff;
+}
+
+.bg-n-300 {
+  background: #f7f7f9;
+}
+
+.bg-p-50 {
+  background: #ebebff;
+}
+
+.clr-n-900 {
+  color: #000;
+}
+
+.clr-n-800 {
+  color: #172b4d;
+}
+
+.clr-n-700 {
+  color: #253858;
+}
+
+.clr-n-600 {
+  color: #344563;
+}
+
+.clr-n-500 {
+  color: #7a869a;
+}
+
+.clr-p-500 {
+  color: #396df2;
+}
+
+.clr-p-400 {
+  color: #6070ff;
+}
+
+.clr-p-300 {
+  color: #7f8cff;
+}
+
+.fz-40 {
+  font-size: 40px;
+}
+
+.fz-32 {
+  font-size: 32px;
+}
+
+.fz-20 {
+  font-size: 20px;
+}
+
+.fz-18 {
+  font-size: 18px;
+}
+
+.fz-17 {
+  font-size: 17px;
+}
+
+.fz-16 {
+  font-size: 16px;
+}
+
+.fz-15 {
+  font-size: 15px;
+}
+
+.fz-13 {
+  font-size: 13px;
+}
+
+.fz-12 {
+  font-size: 12px;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.lh-52 {
+  line-height: 52px;
+}
+
+.lh-28 {
+  line-height: 28px;
+}
+
+.lh-24 {
+  line-height: 24px;
+}
+
+.lh-20 {
+  line-height: 20px;
+}
+
+.lh-16 {
+  line-height: 16px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.btn {
+  -webkit-animation-duration: 0.8s;
+  animation-duration: 0.8s;
+  transition: background 0.8s ease-in-out, color 0.8s ease-in-out;
+}
+
+.btn:hover {
+  -webkit-animation-name: btn-hover;
+  animation-name: btn-hover;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+.btn:focus {
+  background: #2230d2;
+  color: #fff;
+}
+
+@-webkit-keyframes btn-hover {
+  100% {
+    box-shadow: inset 11rem 0 0 0 #6070ff, 0 8px 16px rgba(64, 83, 252, 0.24);
+    color: #fff;
+  }
+}
+
+@keyframes btn-hover {
+  100% {
+    box-shadow: inset 11rem 0 0 0 #6070ff, 0 8px 16px rgba(64, 83, 252, 0.24);
+    color: #fff;
+  }
+}
+
+.hidden {
+  transform: scale(0);
+}
+
+.navbar {
+  padding: 1rem 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.navbar__link {
+  color: #2230d2;
+  -webkit-animation-name: rotate-logo;
+  animation-name: rotate-logo;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+.navbar__hamb {
+  cursor: pointer;
+  z-index: 100;
+}
+
+.head::before {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  background-image: url("https://raw.githubusercontent.com/ArthurGC/portfolio-microverse/add-set-up-mobile-version--portfolio/images/shapes.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  border-bottom-left-radius: 5rem;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.head {
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  padding: 6rem 1.5rem;
+  z-index: 10;
+}
+
+.head__title {
+  color: #172b4d;
+  width: 10ch;
+}
+
+.head__title span {
+  display: block;
+  width: 10ch;
+}
+
+.head__dsc {
+  margin: 0.8rem 0;
+  color: #344563;
+}
+
+.head__link {
+  text-transform: uppercase;
+}
+
+.head__icons {
+  margin: 0.5rem 0;
+  align-items: center;
+  justify-content: space-between;
+  width: 11rem;
 }
