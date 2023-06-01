@@ -54,7 +54,7 @@ body {
 .form-content-container,
 form {
   display: flex;
-} 
+}
 
 .toolbar-content-container {
   justify-content: space-between;
