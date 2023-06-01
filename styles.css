@@ -276,7 +276,8 @@ body {
   border-radius: 8px;
   padding: 12px;
   color: #396df2;
-  font-size: 17px;
+  font-size: 20px;
+  background-color: white;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.03em;
