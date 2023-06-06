@@ -130,6 +130,10 @@ Install this project with:
 
 👤 **Noel Nomgne Foka**
 
+- GitHub: [@githubhandle](https://github.com/noelfoka)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/noelfoka)
+- Twiter: [twitter](https://twitter.com/noelnomgne)
+
 👤 Joy
 
 - GitHub: [Joy](https://github.com/JoyTaribagshaw)
