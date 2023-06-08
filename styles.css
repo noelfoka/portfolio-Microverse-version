@@ -841,6 +841,27 @@ body {
     font-size: 48px;
   }
 
+  nav .logo {
+    color: #6070ff;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    transition: all 1s;
+  }
+
+  .logo:hover {
+    transform: rotate(360deg);
+  }
+
+  h1 {
+    -webkit-animation-name: introin;
+    animation-name: introin;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+  }
+
   .fz-16 {
     font-size: 20px;
   }
