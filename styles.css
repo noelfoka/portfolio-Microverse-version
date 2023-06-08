@@ -145,6 +145,7 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
+  width: 447px;
 }
 
 .flex {
@@ -242,7 +243,6 @@ body {
 
 .head__title {
   color: #172b4d;
-  width: 10ch;
 }
 
 .head__title span {
