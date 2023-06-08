@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap");
 
 * {
   margin: 0;
@@ -29,34 +29,17 @@ body {
   display: none;
 }
 
-.overflow-none {
-  overflow: hidden;
-}
-
 /* Toolbar */
 .toolbar-container {
   background-color: #fff;
   position: fixed;
   top: 0;
   width: 100%;
-}
-
-.toolbar-content-container,
-.menu-icon-container,
-.mobile-menu-container ul,
-.headline-socialmedia-icons-container,
-.card-container,
-.card-preview-container,
-.card-info-details-container,
-.card-info-tags-container,
-.skill-container,
-.language-container,
-.form-content-container,
-form {
-  display: flex;
+  z-index: 999;
 }
 
 .toolbar-content-container {
+  display: flex;
   justify-content: space-between;
   align-items: center;
   width: 90%;
@@ -65,7 +48,7 @@ form {
 
 .toolbar-brandname {
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
@@ -76,55 +59,6 @@ form {
 
 .toolbar-brandname-container:hover {
   transform: scale(1.2);
-}
-
-.mobile-menu-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  z-index: 4;
-  background-color: #6070ff;
-  opacity: 90%;
-  background-blend-mode: multiply;
-  overflow: hidden;
-}
-
-.mobile-menu-toggler {
-  display: none;
-}
-
-.menu-icon-container {
-  justify-content: flex-end;
-  align-items: center;
-  width: 80%;
-  margin: auto;
-  margin-top: 62px;
-}
-
-.menu-icon-container img {
-  width: 12px;
-}
-
-.mobile-menu-container ul {
-  flex-direction: column;
-  gap: 40px;
-  width: 80%;
-  margin: auto;
-  margin-top: 30px;
-  list-style: none;
-}
-
-.mobile-menu-container a {
-  text-decoration: none;
-  font-family: 'Poppins', sans-serif;
-  font-size: 32px;
-  font-weight: 600;
-  line-height: 44px;
-  letter-spacing: 0;
-  text-align: left;
-  color: #fff;
 }
 
 .navbar-links-container {
@@ -145,7 +79,7 @@ form {
   background-image: url(images/header-shapes\ mobile@2x.svg);
   background-repeat: no-repeat;
   background-color: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   padding: 114px 24px 12px 24px;
   margin-top: 108px;
   border-radius: 0 0 0 50px;
@@ -177,6 +111,7 @@ form {
 }
 
 .headline-socialmedia-icons-container {
+  display: flex;
   align-items: center;
   list-style: none;
 }
@@ -200,12 +135,14 @@ form {
   background-color: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+  display: flex;
   flex-direction: column;
   padding: 16px;
 }
 
 .card-preview-container {
+  display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
@@ -223,6 +160,7 @@ form {
 
 .card-info-details-container {
   margin: 12px 0;
+  display: flex;
   justify-content: flex-start;
   align-items: center;
 }
@@ -262,6 +200,7 @@ form {
 
 .card-info-tags-container {
   list-style: none;
+  display: flex;
   justify-content: flex-start;
   margin: 12px 0;
 }
@@ -283,8 +222,8 @@ form {
   border-radius: 8px;
   padding: 12px;
   color: #396df2;
-  font-size: 20px;
-  background-color: white;
+  background-color: #fff;
+  font-size: 17px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -292,10 +231,10 @@ form {
 }
 
 /* About myself */
-.about-myself-container {
+#about-myself-container {
   border-radius: 0 100px 0 0;
   background-color: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   padding: 114px 24px 12px 24px;
 }
 
@@ -305,6 +244,7 @@ form {
 }
 
 .skill-container {
+  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 12px 24px;
@@ -323,6 +263,7 @@ form {
 }
 
 .language-container {
+  display: flex;
   justify-content: flex-start;
   align-items: center;
   margin: 12px;
@@ -361,15 +302,17 @@ hr {
   background-image: url(images/contact-form-shapes-mobile.svg);
   background-position: right top;
   background-repeat: no-repeat;
+  position: relative;
 }
 
 .form-content-container {
   margin: 103px 24px;
+  display: flex;
   flex-direction: column;
 }
 
 .form-header {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
@@ -379,7 +322,7 @@ hr {
 }
 
 .form-description {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
@@ -391,6 +334,7 @@ hr {
 }
 
 form {
+  display: flex;
   flex-direction: column;
   gap: 18px;
 }
@@ -399,7 +343,7 @@ form {
 textarea {
   border: 1px solid #cfd8dc;
   color: var(--font-heavey-pruple-color);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 17px;
   font-weight: 400;
   line-height: 20px;
@@ -416,7 +360,7 @@ textarea {
 }
 
 #submit-btn {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 17px;
   font-weight: 500;
   line-height: 24px;
@@ -472,7 +416,7 @@ textarea {
 
   .navbar-links-container a {
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 15px;
     font-weight: 500;
     line-height: 20px;
@@ -500,17 +444,22 @@ textarea {
   }
 
   .headline-greeting {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 48px;
+    width: 2rem;
     font-weight: 700;
     line-height: 60px;
     letter-spacing: 0.37px;
     text-align: left;
   }
 
+  .title1 {
+    width: 447px;
+  }
+
   .headline-text {
     width: 95%;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
@@ -610,7 +559,7 @@ textarea {
   }
 
   /* About myself */
-  .about-myself-container {
+  #about-myself-container {
     border-radius: 0 70px 0 0;
     display: flex;
     justify-content: center;
