@@ -83,7 +83,7 @@ This website shows a sneak peek into the projects I have developed and deployed,
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Live Demo <a name="live-demo"></a>
-This is the [live demo link](https://noelfoka.github.io/portfolio-version/)
+This is the [live demo link](https://noelfoka.github.io/portfolio-Microverse-version/)
 
 <!-- GETTING STARTED -->
 
