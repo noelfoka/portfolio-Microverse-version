@@ -82,6 +82,7 @@ This website shows a sneak peek into the projects I have developed and deployed,
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!--LIVE DEMO-->
 ## Live Demo <a name="live-demo"></a>
 This is the [live demo link](https://noelfoka.github.io/portfolio-Microverse-version/)
 
@@ -128,7 +129,7 @@ Install this project with:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Noel Nomgne Foka**
+👤 **Noel NOMGNE FOKA**
 
 - GitHub: [@githubhandle](https://github.com/noelfoka)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/noelfoka)
