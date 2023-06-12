@@ -121,7 +121,7 @@ Install this project with:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Noel Nomgne Foka**
+👤 **Noel NOMGNE FOKA**
 
 - GitHub: [@githubhandle](https://github.com/noelfoka)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/noelfoka)
