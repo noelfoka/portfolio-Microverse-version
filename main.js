@@ -1,4 +1,4 @@
-/* eslint-disable linebreak-style */
+// eslint-disable linebreak-style
 const menuButton = document.querySelector("#menu-icon");
 const exitMenuButton = document.querySelector("#exit-menu-icon");
 const menuLinks = document.querySelectorAll(".mobile-menu-link");
