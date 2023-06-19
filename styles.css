@@ -41,6 +41,16 @@ body {
   width: 100%;
 }
 
+#exit-menu-icon {
+  position: absolute;
+  left: 85%;
+  right: 15%;
+  top: 10%;
+  bottom: 85%;
+  width: 10px;
+  height: 10px;
+}
+
 .toolbar-content-container {
   display: flex;
   justify-content: space-between;
