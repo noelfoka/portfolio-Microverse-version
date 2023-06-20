@@ -1,8 +1,9 @@
 /* eslint-disable linebreak-style */
+
 const seeProjectBtns = document.querySelectorAll(
   ".card-info-link-container button"
 );
-// Mobile Pop up
+// Mobile Popup window
 const mobileExitBtn = document.querySelector(
   ".mobile-details-first-row-container img"
 );
@@ -169,7 +170,7 @@ if (window.innerWidth <= 375) {
     });
   });
 } else {
-  // Desktop
+  // Desktop popup window
   // exit button functionality
   desktopExitBtn.addEventListener("click", () => {
     desktopDetailsPopupBgContainer.style.display = "none";
