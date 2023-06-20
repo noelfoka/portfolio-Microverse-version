@@ -242,6 +242,7 @@ body {
 
 .head__title {
   color: #172b4d;
+  width: 10ch;
 }
 
 .head__title span {
@@ -328,6 +329,10 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.about__title {
+  width: 5ch;
 }
 
 .about__dsc {
@@ -811,6 +816,9 @@ body {
 
   .modal {
     width: 70%;
+    display: block;
+    justify-content: center;
+    align-items: center;
   }
 
   .modal .image-project {
@@ -839,27 +847,6 @@ body {
 @media (min-width: 1440px) {
   .fz-40 {
     font-size: 48px;
-  }
-
-  nav .logo {
-    color: #6070ff;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;
-    transition: all 1s;
-  }
-
-  .logo:hover {
-    transform: rotate(360deg);
-  }
-
-  h1 {
-    -webkit-animation-name: introin;
-    animation-name: introin;
-    -webkit-animation-duration: 4s;
-    animation-duration: 4s;
   }
 
   .fz-16 {
