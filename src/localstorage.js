@@ -1,4 +1,4 @@
-/*export const name = document.querySelector(".contact__name");
+export const name = document.querySelector(".contact__name");
 
 export function storageAvailable(type) {
   let storage;
@@ -26,4 +26,3 @@ export function storageAvailable(type) {
     );
   }
 }
-*/
