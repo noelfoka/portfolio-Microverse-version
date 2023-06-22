@@ -6,7 +6,7 @@ const menuBtns = [menuButton, exitMenuButton];
 const menuContainer = document.querySelector(".mobile-menu-container");
 const wholePage = document.querySelector("html");
 
-menuBts.map((menuBtn) =>
+menuBtns.map((menuBtn) =>
   menuBtn.addEventListener("click", () => {
     menuContainer.classList.toggle("mobile-menu-toggler");
     wholePage.classList.toggle("overflow-none");
